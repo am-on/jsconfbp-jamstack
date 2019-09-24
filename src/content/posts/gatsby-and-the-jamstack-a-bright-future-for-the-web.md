@@ -1,7 +1,6 @@
 ---
 templateKey: post-page
-title: Gatsby And The JAMstack - A Bright Future For The Web
-author: Amon
+title: Gatsby And The JAMstack
 date: 2019-09-22T14:59:25.544Z
 ---
 
