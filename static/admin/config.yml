@@ -24,7 +24,7 @@ collections:
   - name: 'product'
     label: 'Product'
     identifier_field: 'name'
-    folder: 'src/content/product'
+    folder: 'src/content/products'
     create: true
     slug: '{{slug}}'
     fields:
@@ -34,7 +34,13 @@ collections:
           widget: 'hidden',
           default: 'product-page',
         }
-      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Name', name: 'name', widget: 'string' }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Price', name: 'price', widget: 'number', valueType: 'float', min: 0, }
+      - {
+          label: 'Price',
+          name: 'price',
+          widget: 'number',
+          valueType: 'float',
+          min: 0,
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
